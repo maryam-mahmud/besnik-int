@@ -1,0 +1,20 @@
+.review{
+    align-items: center;
+    padding: 5rem;
+    gap: 8rem;
+    background: linear-gradient(279.85deg, #FFFFFF 0%, #FAF5F2 100%);
+
+    &__boxes{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+        grid-template-rows: 25rem;
+        grid-gap: 1.5rem;
+        grid-row-gap: 20px;
+    }
+
+    img{
+        height: 4.5rem;
+        width: 4.5rem;
+    }
+
+}

@@ -1,0 +1,51 @@
+.view{
+    padding:8rem 4rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(55rem, 1fr));
+    grid-gap: 1rem;
+    grid-row-gap: 30px;
+
+    &__scroll{
+        align-self: flex-start;
+        // margin-left: 2rem;
+        position: relative;
+        border-radius: 1rem;
+        width: .2rem;
+        height: 30rem;
+        visibility: visible;
+        background-color: rgba(250, 220, 217, 1);
+
+        &::before{
+            position: absolute;
+            content: "";
+            height: 7rem;
+            border-radius: 1rem;
+            width: 100%;
+            background-color:rgba(247, 148, 137, 1);
+        }
+
+        @include respond(tab-port){
+            display: none;
+        }
+    }
+
+    &__text{
+        order: 0;
+    }
+    &__image{
+        order: -1;
+        background-color: #fff;
+        height: 100%;
+        width: 100%;
+        // flex-basis: 98%;
+        overflow: hidden;
+
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 4rem 4rem 0 4rem;
+        }
+    }
+
+}
