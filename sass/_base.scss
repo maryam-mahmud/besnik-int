@@ -73,5 +73,11 @@ body{
 a{text-decoration: none; font-size: inherit; color: inherit;}
 
 ul{list-style: none; font-size: inherit;}
-input{color:inherit; border: none; font-size: inherit; background: transparent;}
+input{ 
+  border: none; 
+  background: transparent;
+  &:focus{
+    outline: none;
+}
+}
 select, button{border:none; background-color: inherit; font-size: inherit; color: inherit;}

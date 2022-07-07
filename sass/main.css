@@ -45,10 +45,11 @@ ul {
 }
 
 input {
-  color: inherit;
   border: none;
-  font-size: inherit;
   background: transparent;
+}
+input:focus {
+  outline: none;
 }
 
 select, button {
@@ -212,7 +213,7 @@ select, button {
 }
 
 .w-15r {
-  width: 160px;
+  width: 165px;
 }
 
 .w-12r {
@@ -379,6 +380,7 @@ select, button {
   border-radius: 50%;
 }
 .header__search-box input {
+  font-size: 14px;
   height: 3rem;
   width: 80%;
 }
@@ -507,7 +509,7 @@ select, button {
   width: 100%;
   background-color: #fff;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 1rem;
 }
 .feature__card figure {
@@ -571,6 +573,7 @@ select, button {
   background: rgb(250, 220, 217);
 }
 .contact__email input {
+  font-size: 14px;
   height: 4rem;
   width: 80%;
 }
