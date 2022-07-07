@@ -7,7 +7,7 @@
 
     &__scroll{
         align-self: flex-start;
-        // margin-left: 2rem;
+        margin-right: 1.5rem;
         position: relative;
         border-radius: 1rem;
         width: .2rem;
@@ -29,11 +29,7 @@
         }
     }
 
-    &__text{
-        order: 0;
-    }
     &__image{
-        order: -1;
         background-color: #fff;
         height: 100%;
         width: 100%;

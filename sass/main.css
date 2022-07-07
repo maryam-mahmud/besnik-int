@@ -465,6 +465,7 @@ select, button {
 }
 .view__scroll {
   align-self: flex-start;
+  margin-right: 1.5rem;
   position: relative;
   border-radius: 1rem;
   width: 0.2rem;
@@ -485,11 +486,7 @@ select, button {
     display: none;
   }
 }
-.view__text {
-  order: 0;
-}
 .view__image {
-  order: -1;
   background-color: #fff;
   height: 100%;
   width: 100%;
@@ -607,7 +604,7 @@ select, button {
 }
 .footer__content {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 1rem;
   grid-row-gap: 30px;
 }
