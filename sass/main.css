@@ -58,6 +58,9 @@ select, button {
   font-size: inherit;
   color: inherit;
 }
+select:focus, button:focus {
+  outline: none;
+}
 
 .heading-3 {
   font-size: 1.8rem;
